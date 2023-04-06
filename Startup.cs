@@ -12,7 +12,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DanBooks.DataAccess.Repository.IRepository;
+using DanBooks.DataAccess.Repository;
 using DanBookStore.DataAccess.Data;
+
 
 namespace DanBookStore
 {
@@ -33,6 +36,7 @@ namespace DanBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()//option => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

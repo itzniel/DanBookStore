@@ -87,6 +87,7 @@ Modified the IRepository.cs file
 @1425 Created the individual repos and added the IcategoryRepository.cs and CategoryRepository to the IRepository and Repository
 Modified  categoryRepository and Icategory Repository
 
-
-
+@1450 Added a new interface (IunitOfWork) to the IRepository folderand updated the code
+Added a class to the Repository folder and extended the UnitOfWork : IUnitOfwWork
+built the app no errors
 
