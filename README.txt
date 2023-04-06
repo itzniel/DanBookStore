@@ -68,5 +68,20 @@ Added the proper view files and deleted the Data and Models folder
 Deleted the Controllers folder
 Updated my GitHub repository
 
+2023-03-23
+@1205 Reviewed appsettings.json and made the require changes
+@1211 Created the migration using code-first , Using the nuget Package manager console 
+Added a migration with the name 20230406152540_AddDefaultIdentityMigration.cs
+Updated database in PM console 
+@1230 Added a new table to the DB by creating a Category model and pushed it to the DB:@
+@1238 Added a new class file to the .Models project and modified it
+@1245  Added the migration via the PM Console
+Updated this and new statements were  added
+@1300 Updated the database, confirmed the new Categories table via the SQL SOE and pushed my commits to GitHub
+
+
+
+
+
 
 
