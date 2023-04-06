@@ -79,8 +79,13 @@ Updated database in PM console
 Updated this and new statements were  added
 @1300 Updated the database, confirmed the new Categories table via the SQL SOE and pushed my commits to GitHub
 
+@1315 Added a new folder name Repository and added an IRespository folder
+In the IRepository folder added a new interface name IRepository.cs 
+Modified the IRepository.cs file
+@1340 Added a repository.cs to the Repository folder 
 
-
+@1425 Created the individual repos and added the IcategoryRepository.cs and CategoryRepository to the IRepository and Repository
+Modified  categoryRepository and Icategory Repository
 
 
 
