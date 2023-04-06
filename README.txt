@@ -51,3 +51,13 @@ Microsofyt.AspNEtCore.Identity.EntityFrameworkCore Version 3.1.32
 @1230 moved the models into DanBooks.Model, modified the error.cshtml
 @1300 Added a project reference in the DanBookStore.proj then renamed the Model folder to ViewModels
 Changed the namespace in the ErrorViewModels.cs to .Model.ViewModels, Built the project and it ran fine
+@
+2023-03-22
+@1700 Created a static details class called SD.cs in the utility project, modified the class
+@1715 In the DataAccess project added the projec refernces to Models and Utility
+@1745 Added a customer area to he Areas, then changed the route with the text given in the scaffoldingReadMe.txt
+Moved the HomeController.cs to the Area > Customer > Controller folder and deleted Data and Models.
+Edite the HomeController.cs to explicitly define that the controller is in the Customer Area
+Moved the Views > Home and modify the HomeController namespace
+@1815 ran the Application and everything went to default
+

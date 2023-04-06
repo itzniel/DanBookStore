@@ -19,4 +19,7 @@
 		<ProjectReference Include="..\DanBooks.Models\DanBooks.Models.csproj" />
 		<ProjectReference Include="..\DanBooks.Utility\DanBooks.Utility.csproj" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Controllers\" />
+	</ItemGroup>
 </Project>
