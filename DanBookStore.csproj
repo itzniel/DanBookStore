@@ -5,12 +5,18 @@
     <UserSecretsId>aspnet-DanBookStore-99F090A3-43E2-498E-AFB7-21BE15410C0D</UserSecretsId>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.31" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.31" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.31" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.31" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.31" />
-  </ItemGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.32" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.32" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.32" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.32" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.32" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\DanBooks.DataAccess\DanBooks.DataAccess.csproj" />
+		<ProjectReference Include="..\DanBooks.Models\DanBooks.Models.csproj" />
+		<ProjectReference Include="..\DanBooks.Utility\DanBooks.Utility.csproj" />
+	</ItemGroup>
 </Project>
