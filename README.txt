@@ -60,4 +60,13 @@ Moved the HomeController.cs to the Area > Customer > Controller folder and delet
 Edite the HomeController.cs to explicitly define that the controller is in the Customer Area
 Moved the Views > Home and modify the HomeController namespace
 @1815 ran the Application and everything went to default
+@1825Copied _ViewImport and _ViewStart to Customer Area and modified the _viewStart.cshtml to reflect new path
+@1838 Ran the application and everything worked out fine
+
+@1900 Added a new Admin area in Areas
+Added the proper view files and deleted the Data and Models folder
+Deleted the Controllers folder
+Updated my GitHub repository
+
+
 
